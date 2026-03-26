@@ -1,0 +1,139 @@
+/* Modern, beautiful styles for StudentForm and StudentList */
+.App {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 32px;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #f7fafc;
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.student-form input {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #fff;
+  transition: border 0.2s;
+}
+
+.student-form input:focus {
+  border: 1.5px solid #3182ce;
+  outline: none;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.student-form button {
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.student-form button[type="button"] {
+  background: #a0aec0;
+}
+
+.student-form button:hover {
+  background: #2563eb;
+}
+
+.student-list {
+  margin-top: 16px;
+}
+
+.student-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.student-card {
+  background: #f1f5f9;
+  border-radius: 10px;
+  padding: 18px 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.student-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.student-name {
+  font-weight: 600;
+  color: #2b6cb0;
+  font-size: 1.1rem;
+}
+
+.student-school {
+  color: #4a5568;
+  font-size: 0.97rem;
+}
+
+.student-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.student-actions button {
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  font-size: 0.97rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.student-actions button:hover {
+  background: #2563eb;
+}
+
+.student-actions button:nth-child(2) {
+  background: #38a169;
+}
+
+.student-actions button:nth-child(2):hover {
+  background: #2f855a;
+}
+
+.student-actions button:nth-child(3) {
+  background: #e53e3e;
+}
+
+.student-actions button:nth-child(3):hover {
+  background: #c53030;
+}

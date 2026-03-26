@@ -1,0 +1,101 @@
+/* Add vibrant background and colorful table for user-friendly UI */
+.vibrant-bg {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+.student-table-container {
+  margin: 36px auto 0 auto;
+  max-width: 520px;
+  background: #fff7ed;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(255, 122, 89, 0.08);
+  padding: 24px 18px 32px 18px;
+  text-align: center;
+}
+
+.student-table-container h2 {
+  color: #f97316;
+  margin-bottom: 18px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(249, 115, 22, 0.07);
+}
+
+.student-table th {
+  background: #f97316;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 8px;
+  font-size: 1rem;
+}
+
+.student-table td {
+  padding: 10px 8px;
+  color: #2d3748;
+  font-size: 1rem;
+  background: #fff7ed;
+}
+
+.student-table tr:nth-child(even) td {
+  background: #ffe4d6;
+}
+
+.student-table tr {
+  border-bottom: 1px solid #fbbf24;
+}
+
+.get-all-btn {
+  background: linear-gradient(90deg, #f97316 60%, #fbbf24 100%);
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(249, 115, 22, 0.08);
+  transition: background 0.2s, transform 0.2s;
+}
+.get-all-btn:hover {
+  background: linear-gradient(90deg, #fbbf24 60%, #f97316 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.table-edit-btn {
+  background: #38a169;
+  color: #fff;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  font-size: 0.97rem;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.table-edit-btn:hover {
+  background: #2f855a;
+}
+
+.table-delete-btn {
+  background: #e53e3e;
+  color: #fff;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  font-size: 0.97rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.table-delete-btn:hover {
+  background: #c53030;
+}
+
